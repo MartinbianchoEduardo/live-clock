@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    background-color: rgb(46, 46, 46) ;
+    color: #fff;
+    text-align: center;
+    
+}
+
+header {
+    
+}
+
+section {
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 8px #fff;
+}
+
+footer {
+    font-style: italic;
+    color: #fff;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#me {
+    color: #fff;
+    cursor: default;
+}
+
+#me:hover {
+    transition: 200ms;
+    opacity: 75%;
+}
