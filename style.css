@@ -1,43 +1,42 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15pt;
-    background-color: #cab076 ;
-    color: #fff;
-    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  background-color: #cab076;
+  color: #fff;
+  text-align: center;
 }
 
 header {
-       
+  padding: 5px;
 }
 
 section {
-    background-color: #fff;
-    color: black;
-    border-radius: 5px;
-    padding: 10px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 1px 2px 15px black;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 1px 2px 15px black;
 }
 
 footer {
-    font-style: italic;
-    color: #fff;
+  font-style: italic;
 }
 
 img {
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    padding: 20px;
+  width: 380px;
+  height: 380px;
+  border-radius: 100%;
+  padding: 20px;
 }
 
 #me {
-    color: #fff;
-    cursor: default;
+  color: #fff;
+  cursor: default;
 }
 
 #me:hover {
-    transition: 200ms;
-    opacity: 75%;
+  transition: 200ms;
+  opacity: 75%;
 }
