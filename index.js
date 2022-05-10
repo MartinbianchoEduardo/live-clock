@@ -1,13 +1,13 @@
 const img = document.querySelector("#image");
-const date = new Date();
-const hour = date.getHours();
+let date = new Date();
+let hour = date.getHours();
 
 function load() {
-  const date = new Date();
-  const hour = date.getHours();
-  const minute = date.getMinutes();
-  const second = date.getSeconds();
-  const ampm = "AM";
+  let date = new Date();
+  let hour = date.getHours();
+  let minute = date.getMinutes();
+  let second = date.getSeconds();
+  let ampm = "AM";
 
   if (hour == 0) {
     hour = 12;
@@ -61,7 +61,6 @@ function verifyTime() {
   }
 }
 
-function loader() {
-  load();
-  verifyTime();
-}
+load();
+verifyTime();
+
