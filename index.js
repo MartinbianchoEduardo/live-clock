@@ -1,13 +1,13 @@
-var img = document.querySelector("#image");
-var date = new Date();
-var hour = date.getHours();
+const img = document.querySelector("#image");
+const date = new Date();
+const hour = date.getHours();
 
 function load() {
-  var date = new Date();
-  var hour = date.getHours();
-  var minute = date.getMinutes();
-  var second = date.getSeconds();
-  var ampm = "AM";
+  const date = new Date();
+  const hour = date.getHours();
+  const minute = date.getMinutes();
+  const second = date.getSeconds();
+  const ampm = "AM";
 
   if (hour == 0) {
     hour = 12;
@@ -37,8 +37,8 @@ function load() {
 }
 
 function verifyTime() {
-  var d = new Date();
-  var h = d.getHours();
+  const d = new Date();
+  const h = d.getHours();
   const timeDiv = document.querySelector(".greeting");
   if (h >= 0 && h < 12) {
     img.src = "./img/morning.jpg";
