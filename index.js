@@ -39,20 +39,21 @@ function load() {
 
 function verifyTime() {
     var d = new Date();
-    var ho = d.toLocaleTimeString().split(":")[0];
-    if (ho >= 0 && hour < 12) {
+    var h = d.getHours();
+    const timeDiv = document.querySelector(".greeting");
+    if (h >= 0 && h < 12) {
         img.src = "./img/morning.jpg";
         document.body.style.backgroundColor = "#bbe8b5";
         const p = document.createElement("p");
         timeDiv.appendChild(p);
         p.after('Good Morning!');
-    } else if (ho >= 12 && ho < 19) {
+    } else if (h >= 12 && h < 19) {
         img.src = "./img/afternoon.jpg";
         document.body.style.backgroundColor = "#cab076";
         const p = document.createElement("p");
         timeDiv.appendChild(p);
         p.after('Good Afternoon!');
-    } else if (ho >= 19 && ho < 23 ) {
+    } else if (h >= 19 && h < 23 ) {
         img.src = "./img/evening.jpg";
         document.body.style.backgroundColor = "#112d3d";
         const p = document.createElement("p");
