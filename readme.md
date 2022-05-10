@@ -1,6 +1,6 @@
-Shows you the time of the day on page load
+Shows you a live clock made with JavaScript
 
-And a dope image depending on the hour
+And a dope image depending on what time it is
 
 # Screenshot
 <img src="./img/screenshot.jpeg">
